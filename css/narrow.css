@@ -1,0 +1,56 @@
+
+
+#parent {
+	width:100%;
+}
+
+#logo {
+	width:100%;
+	text-align:center;
+}
+
+#menu {
+	clear:both;
+	height:60px;
+	width:100%;
+}
+
+#menu ul {
+	width:100%;
+	height:100%;
+}
+
+#menu ul li {
+	float:left;
+	width:33.333%;
+	height:100%;
+}
+
+
+#menu ul li a {
+	height:100%;
+}
+
+
+#wrapper
+{
+	width:100%;
+}
+
+#positions{
+	float: none;
+	width: auto;
+	margin-left:500px;
+}
+
+
+video {
+	height:510px;
+	width:400px;
+}
+
+#videotext {
+	margin-left:420px;
+	width:auto;
+	float:none;
+}

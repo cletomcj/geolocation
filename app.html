@@ -1,0 +1,41 @@
+<!--
+Autores:
+ Carlos Martin-Cleto Jimenez (DNI: 50777523-D)
+ Antonio Prada Blanco (DNI: 05303654-S)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><title> Practica 1.5</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:100&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.9.1/build/cssreset/cssreset-min.css">
+  <link rel='stylesheet' type='text/css' href='/css/style.css' /> 
+  <link rel="stylesheet" media="only screen and (max-width:960px)" href="/css/narrow.css" >
+  <link rel="stylesheet" media="only screen and (max-width:680px)" href="/css/smartphone.css" >
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+</head> 
+<body>
+  <div id="parent">
+    <header id="header" >
+      <h1 id="logo" ><a href="/geolocation/index">your<b>last</b>location</a></h1>
+    </header>
+    <div id="content">
+      <nav id="menu">
+          <ul>
+            <li><a id="map" href="/geolocation/index">map</a></li>
+            <li><a id="video" href="/geolocation/video">video</a></li>
+            <li><a id="about" href="/geolocation/about">about</a></li>
+          </ul>
+      </nav>
+      <div id="wrapper" >
+      <%view%>
+      </div>
+    </div>
+    <div id="footer">
+      <p>Developed by Carlos Martín-Cleto and Toni Prada at SWCM</p>
+    </div>
+</div>
+</body>
+</html>

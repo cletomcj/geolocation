@@ -1,0 +1,235 @@
+html
+{
+	font-family: 'Roboto', sans-serif;
+¡	background: #fff;
+}
+
+#parent {
+	width:920px;
+	margin: 0px auto;
+}
+
+/* Header */
+
+#header {
+	overflow:auto;
+	width:100%;
+}
+
+#header #logo {
+	font-size:4em;
+	float:left;
+	margin: 20px 0px 10px 0px;
+}
+
+#header #logo a { 
+	color:#000;
+	text-decoration:  none;
+}
+
+
+/*  Content */
+
+#content {
+	width:100%;
+	height:510px;
+	margin:0;
+}
+
+/*nav*/
+
+#menu {
+	clear:both;
+	float:left;
+	width:160px;
+	height:100%;
+}
+
+#menu ul {
+	width:100%;
+	height:100%;
+}
+
+#menu ul li {
+	width:100%;
+	height:170px;
+}
+
+
+#menu ul li a{
+	display:block;
+	width:100%;
+	padding-top:10px;
+	height:160px;
+	color:#000;
+	text-decoration: none;
+	font-size:2em;
+	color:#fff;
+	text-align:center
+}
+
+#menu ul li #about {
+	background-color:#97C99E;
+}
+
+#menu ul li #video {
+	background-color:#349484;
+}
+
+#menu ul li #map {
+	background-color:#4A615E;
+}
+
+
+
+/** WRAPPER 	box-shadow: 0px 0px 10px 5px rgba(0,0,0,.20); */
+
+#wrapper
+{
+	float:right;
+	overflow: auto;
+	background: #FFFFFF;
+	width:760px;
+	height:100%;
+}
+
+
+.clearfix
+{
+	clear: both;
+}
+
+
+
+
+
+/* Footer */
+
+#footer
+{
+	clear:both;
+	overflow: hidden;
+	padding: 15px 0px;
+	color: #777;
+	font-size:0.8em;
+}
+
+#footer p
+{
+	text-align: right;
+}
+
+#footer a
+{
+	color: #0000FF;
+}
+
+/** positions*/
+
+#positions{
+	height:510px;
+	float: right;
+    width:260px;
+    background-color:#4A615E;
+    color:#fff;
+}
+
+#positions h3 {
+	padding:0px 0px 0px 10px;
+	font-size:2em;
+}
+
+.list-style1
+{
+	font-weight:bold;
+	padding: 0px 10px 10px 10px;
+	list-style: none;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+.list-style1 li
+{
+	padding: 10px 0px 10px 0px;
+}
+
+.list-style1 a
+{
+}
+
+
+.list-style1 .first
+{
+	border-top: 0px;
+	padding-top: 0px;
+}
+
+
+
+#inputLat1, #inputLng1, #inputLat2, #inputLng2{
+	border-style: solid;
+    border-width: 1px;
+    border-color: #BDBDBD;
+    width: 100%;
+}
+
+/* map */
+
+
+#map{
+    float: left;
+}
+
+#map_canvas {
+	height:510px;
+    width: 500px;
+}
+
+#videocontainer {
+	overflow:hidden;
+	height:100%;
+	background-color:#349484;
+
+}
+
+
+
+#aboutparent {
+		background-color: #A9CEAE;
+	height:100%;
+	width:100%;
+
+}
+
+#abouttext {
+	padding:20px;
+	color:white;
+	font-size: 1.2em;
+}
+
+#videoparent{
+	height:100%;
+	float:left;
+}
+
+#videotext {
+	margin:15px;
+	width:230px;
+	color:white;
+	float:right;
+	text-align:justify;
+}
+
+video {
+	height:510px;
+	width:500px;
+	background-color: black;
+}
+
+#abouttext {
+	font-size:1.3em;
+
+}
+
+#abouttext p {
+	margin:20px;
+}
